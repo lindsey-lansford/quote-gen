@@ -1,9 +1,8 @@
 import './App.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { useState, useEffect } from "react";
 
-const getRandomQuote = (quotes) => {
+const shuffleQuotes = (quotes) => {
   return quotes[Math.floor(Math.random() * quotes.length)];
 };
 
@@ -17,23 +16,21 @@ const App = () => {
       .then((res) => res.json())
       .then((json) => {
         setQuotes(json);
-        setQuote(json[5]);
+        setQuote(json[22]);
       })
   }, []);
 
   const getNewQuotes = () => {
-    setQuote(getRandomQuote(quotes));
+    setQuote(shuffleQuotes(quotes));
   };
 
   return (
     <div className="content">
       <div className="card">
       <h3>
-          <span>"</span>
-          {quote?.text}
-          <span>"</span>
+          "{quote.text}"
       </h3>
-        <i>- {quote?.author}</i>
+        <i>{quote.author}</i>
         <div className='lower'>
         <button
           className="button"
