@@ -104,18 +104,4 @@
   100% {
     transform: translate3d(0, 0, 0) translateZ(0);
   }
-}  
-
-@media only screen and (max-width: 1007px) {
-  .card {
-      width: 60%;
-      height: 30%;
-  }
-}
-  
-@media only screen and (max-width: 600px) {
-  .card {
-      width: 80%;
-      height: 40%;
-  }
 }
