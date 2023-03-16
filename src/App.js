@@ -10,7 +10,7 @@ const getRandomQuote = (quotes) => {
 const App = () => {
 
   const [quotes, setQuotes] = useState([]);
-  const [quote, setQuote] = useState(null);
+  const [quote, setQuote] = useState('');
 
   useEffect(() => {
     fetch("https://type.fit/api/quotes")
