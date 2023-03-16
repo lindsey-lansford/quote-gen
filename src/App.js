@@ -1,5 +1,5 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { useState, useEffect } from "react";
 
@@ -28,15 +28,20 @@ const App = () => {
   return (
     <div className="content">
       <div className="card">
-      <h1 className='header'>Quote Generator</h1>
-      <p>{quote?.text}</p>
-      <i>- {quote?.author}</i>
-      <button
+      <h3>
+          <span>"</span>
+          {quote?.text}
+          <span>"</span>
+      </h3>
+        <i>- {quote?.author}</i>
+        <div className='lower'>
+        <button
           className="button"
           onClick={getNewQuotes}
         >
         <span>Get Quote</span>
       </button>
+        </div>
     </div>
   </div>
   );
