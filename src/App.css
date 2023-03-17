@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Satisfy&display=swap');
+
 #root, html, body {
   margin: 0;
   padding: 0;
@@ -7,7 +9,7 @@
 
 .content {
   height: 100%;
-  background: black;
+  background: rgb(17, 16, 16);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -27,11 +29,10 @@
   border-radius: 25px;
 }
 
-/* .heading {
-  display: flex;
-  align-items: center;
-  height: 350px;
-} */
+.author {
+  font-family: 'Satisfy', cursive;
+  font-size: 18px;
+}
 
 .lower {
   padding-top: 1rem;
@@ -49,13 +50,12 @@
   text-transform: uppercase;
   height: 45px;
   width: 100px;
-  opacity: 1;
-  background-color: #ffffff;
-  border: 3px solid rgba(22, 76, 167, 0.6)
+  background-color: #0bb32f;
+  border: 2px solid;
 }
 
 .button span {
-  color: #164ca7;
+  color: white;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 0.7px;
