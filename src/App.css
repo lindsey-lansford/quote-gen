@@ -29,6 +29,10 @@
   border-radius: 25px;
 }
 
+.quote-text {
+  font-family: 'Courgette', cursive;
+}
+
 .author {
   font-family: 'Satisfy', cursive;
   font-size: 18px;
