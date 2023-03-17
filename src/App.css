@@ -40,7 +40,7 @@
 }
 
 .lower {
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 }
 
 .button {
@@ -52,15 +52,15 @@
   align-items: center;
   cursor: pointer;
   text-transform: uppercase;
-  height: 45px;
+  height: 30px;
   width: 100px;
-  background-color: #0bb32f;
-  border: 2px solid;
+  background-color: #3ca553;
+  border: none;
 }
 
 .button span {
   color: white;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: bold;
   letter-spacing: 0.7px;
 }
