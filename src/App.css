@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital@1&family=Courgette&family=Satisfy&display=swap');
 
 #root, html, body {
   margin: 0;
@@ -34,7 +34,8 @@
 }
 
 .author {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Cormorant', serif;
+  font-weight: bolder;
   font-size: 18px;
 }
 
